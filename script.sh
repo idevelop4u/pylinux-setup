@@ -25,3 +25,16 @@ clear
 python3.9 --version
 deactivate 
 
+cd ~/Desktop
+cat > Pylinux.txt <<EOF
+Your development folder has already been made in:
+~/Documents/Dev
+
+To activate the environment:
+$ source .venv/bin/activate 
+[ While being in the Dev folder directory ]
+
+To quit 
+$ deactivate 
+EOF
+
