@@ -23,3 +23,5 @@ echo -e "\nPython 3.9 and required packages installed successfully!\n"
 clear 
 # For verification
 python3.9 --version
+deactivate 
+
