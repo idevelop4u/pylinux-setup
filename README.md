@@ -8,13 +8,13 @@ Download the zip or clone the repository Extract and then change the file permis
 
 Terminal:
 
-cd Downloads
+`cd Downloads`
 
-unzip linux-go-main.zip
+`unzip pylinux-setup-main.zip`
 
-cd linux-go-main
+`cd pylinux-setup-main`
 
-chmod +x script.sh
+`chmod +x script.sh`
 
-./script
+`./script`
 
