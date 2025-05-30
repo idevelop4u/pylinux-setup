@@ -14,7 +14,7 @@ make -j $(nproc)
 sudo make altinstall
 
 cd ~/Documents 
-mkdir Dev || cd Dev 
+mkdir Dev && cd Dev 
 python3.9 -m venv .venv
 source .venv/bin/activate
 pip install tensorflow keras numpy pandas matplotlib scikit-learn seaborn jupyterlab
